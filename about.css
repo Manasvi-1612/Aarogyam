@@ -1,0 +1,30 @@
+.abt-content{
+    height: 380px;
+    width: 450px;
+    background-color: #fff;
+    display: block;
+    margin-top: -440px;
+    margin-left: 400px;
+}
+
+.abt-content h1{
+    padding-top: 45px;
+    padding-left: 40px;
+    color: black;
+}
+
+.abt-content p{
+    color: black;
+    line-height: 30px;
+    padding: 14px 40px;
+}
+
+#about{
+    width: 560px;
+    height: 500px;
+    margin-top: 80px;
+    margin-left: 50vw;
+    background-image: url(about.jpg);
+    background-size: cover;
+    background-position: center;
+}

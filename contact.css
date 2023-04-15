@@ -1,0 +1,49 @@
+.con-container{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    /* background-color: #FFFFDE; */
+    width: 50vh;
+}
+.con-box{
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#form input,textarea{
+    margin: 20px;
+    width: 80%;
+   
+    border: 1px solid #3F4E4F;
+}
+#form input{
+    border: 1px solid #fff;
+    height: 30px;
+    padding: 10px;
+    background: transparent;
+    color: white;
+}
+
+.con-btn{
+    padding: 10px;
+    border-radius: 10px;
+    width: 92%;
+    background-color: rgb(245, 21, 118);
+    color: #fff;
+    border: 1px solid rgb(245, 21, 118);
+}
+
+.con-btn:hover{
+    background-color: white;
+    color: rgb(245, 21, 118);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#message{
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}

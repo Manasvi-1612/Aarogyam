@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+.custom-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.custom-field input {
+    padding: 12px;
+    width: 300px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1.5px solid #fff;
+}
+
+.message {
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    color: steelblue;
+}
+
+.card{
+    margin-top: 100px;
+    width: 50vw;
+    margin-left: 300px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.card-header h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+form{
+    margin-top: 25px;
+}
+
+form center button{
+    margin-top: 30px;
+}
+
+.card-header center h3{
+    text-decoration: underline;
+}
+
+input{
+    background: transparent;
+}
+
+.btn{
+    border: 1px solid #fff;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-danger{
+    background-color: red;
+}
+
+.btn-primary{
+    background-color: green;
+}
+
+.btn-secondary{
+    background-color: blue;
+}

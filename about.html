@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="about.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="home-head">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Aarogyam</h1>
+                    <p>Peace is not the absence of conflict, but <br>
+                        the ability to cope with it
+                    </p>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <span id="user" class="message"></span>
+                    </li>
+                    <li>
+                        <button class="btn btn-danger" onclick="logout()">Logout</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="about">
+            <!-- <img src="/images/about.jpg" alt="About Us"> -->
+        </div>
+        <div class="abt-content">
+            <h1>ABOUT US</h1>
+            <p> Our mission is to provide a safe and welcoming environment for people to seek help and support for their mental health needs. We are committed to providing high-quality services that are affordable, accessible, and effective. We understand the challenges that individuals face when it comes to mental health and we are here to support you every step of the way.
+
+            </p>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="home.js"></script>
+    <script src="common.js"></script>
+</body>
+
+</html>

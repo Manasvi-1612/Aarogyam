@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Demo</title>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"></script>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Aarogyam</h1>
+                    <p>Peace is not the absence of conflict, but <br>
+                        the ability to cope with it
+                    </p>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+
+            <div class="card">
+                <div class="card-header">
+                    <center>
+                        <h3>Login Form</h3>
+                    </center>
+                </div>
+                <form onsubmit="login()" id="loginForm">
+                    <center><small><span id="error" style="color: red"></span></small></center>
+                    <center><label class="custom-field">
+                            <input id="email" type="text" class="input" placeholder="Email Id" required />
+                        </label><br /> <br/>
+                        <label class="custom-field">
+                            <input id="password" type="password" class="input" placeholder="Password" required />
+                        </label>
+                    </center><br /><br />
+                    <center>
+                        <a href="#" onclick="forgotPass()">Forgot Password</a>
+                    </center>
+                    <center><button type="submit" class="btn btn-primary">Login</button>
+                        <button onclick="signUp()" class="btn btn-secondary">Sign Up</button>
+                    </center>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="firebase.js"></script>
+    <script src="login.js"></script>
+    <script src="common.js"></script>
+</body>
+
+</html>

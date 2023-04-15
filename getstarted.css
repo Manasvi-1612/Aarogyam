@@ -1,0 +1,45 @@
+#vc{
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-evenly;
+}
+
+.zooming img{
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.zooming img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.zooming{
+    height: 250px;
+    width: 400px;
+    overflow: hidden;
+}
+
+#chat{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+#shift-1{
+    margin-left: -375px;
+}
+
+#shift-2{
+    margin-right: -403px;
+}
+
+.head-ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
